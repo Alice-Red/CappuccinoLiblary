@@ -6,5 +6,6 @@ namespace VirusFight.Map
 {
     public class MyHome : CappuccinoLiblary.RPG.Map
     {
+
     }
 }

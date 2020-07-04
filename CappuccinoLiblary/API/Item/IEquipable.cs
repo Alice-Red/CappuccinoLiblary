@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VirusFight;
 
-
-namespace VirusFightCUI
+namespace CappuccinoLiblary.API.Item
 {
-    class VFGame : VirusFightGame
+    interface IEquipable
     {
     }
 }

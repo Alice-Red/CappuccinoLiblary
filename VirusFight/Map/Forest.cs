@@ -6,5 +6,8 @@ namespace VirusFight.Map
 {
     public class Forest : CappuccinoLiblary.RPG.Map
     {
+        public Forest() {
+            Name = "森";
+        }
     }
 }

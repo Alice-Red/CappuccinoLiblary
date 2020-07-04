@@ -7,6 +7,6 @@ namespace CappuccinoLiblary.RPG
 {
     public abstract class Map : Cappuccino
     {
-
+        public string Name { get; protected set; }
     }
 }

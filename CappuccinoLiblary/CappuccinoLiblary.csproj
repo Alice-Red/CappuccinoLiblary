@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Core\Event\" />
+    <Folder Include="Core\Shop\" />
+    <Folder Include="Core\Quest\" />
     <Folder Include="Util\" />
   </ItemGroup>
 

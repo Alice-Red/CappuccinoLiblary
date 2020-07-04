@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CappuccinoLiblary
+namespace CappuccinoLiblary.Core.Base
 {
     public enum ObjectType
     {

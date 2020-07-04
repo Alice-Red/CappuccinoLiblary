@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.API;
+using CappuccinoLiblary.API.Mob;
 using CappuccinoLiblary.Core;
 
 namespace CappuccinoLiblary.RPG

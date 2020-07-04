@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VirusFight;
 
-
-namespace VirusFightCUI
+namespace CappuccinoLiblary.API.Mob
 {
-    class VFGame : VirusFightGame
+    public interface IDethable
     {
+        
     }
 }
