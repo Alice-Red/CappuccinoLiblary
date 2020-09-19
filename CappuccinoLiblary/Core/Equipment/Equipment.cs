@@ -5,7 +5,7 @@ using CappuccinoLibrary.API.Item;
 
 namespace CappuccinoLibrary.Core.Equipment
 {
-    public class Equipment:Item,IEquipable
+    public class Equipment:Item.Item,IEquippable
     {
 
     }

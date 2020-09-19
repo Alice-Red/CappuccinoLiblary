@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using CappuccinoLibrary.API.Mob;
 using CappuccinoLibrary.Core;
+using CappuccinoLibrary.Core.Mob;
 
 namespace CappuccinoLibrary.RPG
 {

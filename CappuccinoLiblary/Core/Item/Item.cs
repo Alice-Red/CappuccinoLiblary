@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CappuccinoLibrary.Core
+﻿namespace CappuccinoLibrary.Core.Item
 {
     public class Item
     {

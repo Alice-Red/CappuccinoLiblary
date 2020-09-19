@@ -5,7 +5,7 @@ using CappuccinoLibrary.API;
 
 namespace CappuccinoLibrary.Core.Base
 {
-    public class Entitiy : Cappuccino
+    public class Entity : Cappuccino
     {
 
     }

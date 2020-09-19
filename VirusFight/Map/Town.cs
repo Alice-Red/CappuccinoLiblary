@@ -5,7 +5,7 @@ using CappuccinoLibrary.RPG;
 
 namespace VirusFight.Map
 {
-    public class Town : CappuccinoLibrary.RPG.Map
+    public class Town : CappuccinoLibrary.Core.Map.Map
     {
     }
 }

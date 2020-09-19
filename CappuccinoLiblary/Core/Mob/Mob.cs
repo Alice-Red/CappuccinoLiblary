@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CappuccinoLibrary.API;
+﻿using CappuccinoLibrary.API.Mob;
 using CappuccinoLibrary.Core.Base;
 
-namespace CappuccinoLibrary.Core
+namespace CappuccinoLibrary.Core.Mob
 {
-    public abstract class Mob : Entitiy, IDethable, IHitPoint
+    public abstract class Mob : Entity, IDeathable, IHitPoint
     {
         public abstract void Damage(int dmg);
     }

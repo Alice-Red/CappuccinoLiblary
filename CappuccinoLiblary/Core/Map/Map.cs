@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CappuccinoLibrary.Core.Base;
+﻿using CappuccinoLibrary.Core.Base;
 
-namespace CappuccinoLibrary.RPG
+namespace CappuccinoLibrary.Core.Map
 {
     public abstract class Map : Cappuccino
     {

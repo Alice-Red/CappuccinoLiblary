@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CappuccinoLibrary.API.Mob
 {
-    public interface IDethable
+    public interface IDeathable
     {
         
     }
