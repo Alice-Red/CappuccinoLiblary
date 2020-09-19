@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CappuccinoLiblary.Core
+namespace CappuccinoLibrary.Core
 {
     public class Item
     {

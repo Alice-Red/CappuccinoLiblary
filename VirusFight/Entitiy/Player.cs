@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.API.Mob;
-using CappuccinoLiblary.Core;
+using CappuccinoLibrary.API.Mob;
+using CappuccinoLibrary.Core;
 
 namespace VirusFight.Entitiy
 {

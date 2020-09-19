@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CappuccinoLiblary.API.System
+namespace CappuccinoLibrary.API.System
 {
     public interface ICurrency
     {

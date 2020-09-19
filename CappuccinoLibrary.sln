@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CappuccinoLiblary", "CappuccinoLiblary\CappuccinoLiblary.csproj", "{57264E31-F1C1-4AF3-8499-891202EFC329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CappuccinoLibrary", "CappuccinoLiblary\CappuccinoLibrary.csproj", "{57264E31-F1C1-4AF3-8499-891202EFC329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirusFight", "VirusFight\VirusFight.csproj", "{EF8D8C37-2CC0-4B54-8427-A8BB857DB443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirusFight", "VirusFight\VirusFight.csproj", "{EF8D8C37-2CC0-4B54-8427-A8BB857DB443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirusFightCUI", "VirusFightCUI\VirusFightCUI.csproj", "{1A59C3DE-247A-41EE-B768-ECCC16512829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirusFightCUI", "VirusFightCUI\VirusFightCUI.csproj", "{1A59C3DE-247A-41EE-B768-ECCC16512829}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

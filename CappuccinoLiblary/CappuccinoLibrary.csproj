@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>CappuccinoLibrary</AssemblyName>
+    <RootNamespace>CappuccinoLibrary</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

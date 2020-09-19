@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.API;
-using CappuccinoLiblary.Core.Base;
+using CappuccinoLibrary.API;
+using CappuccinoLibrary.Core.Base;
 
-namespace CappuccinoLiblary.Core
+namespace CappuccinoLibrary.Core
 {
     public abstract class Mob : Entitiy, IDethable, IHitPoint
     {

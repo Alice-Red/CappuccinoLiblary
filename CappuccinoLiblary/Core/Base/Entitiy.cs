@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.API;
+using CappuccinoLibrary.API;
 
-namespace CappuccinoLiblary.Core.Base
+namespace CappuccinoLibrary.Core.Base
 {
     public class Entitiy : Cappuccino
     {

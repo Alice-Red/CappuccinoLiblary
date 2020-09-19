@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.Core.Base;
+using CappuccinoLibrary.Core.Base;
 
-namespace CappuccinoLiblary.Core.Base
+namespace CappuccinoLibrary.Core.Base
 {
     public class Event : Cappuccino
     {

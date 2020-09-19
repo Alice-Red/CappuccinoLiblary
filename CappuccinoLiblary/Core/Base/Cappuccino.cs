@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CappuccinoLiblary.Core.Base
+namespace CappuccinoLibrary.Core.Base
 {
     public class Cappuccino
     {

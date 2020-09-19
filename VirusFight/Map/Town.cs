@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.RPG;
+using CappuccinoLibrary.RPG;
 
 namespace VirusFight.Map
 {
-    public class Town : CappuccinoLiblary.RPG.Map
+    public class Town : CappuccinoLibrary.RPG.Map
     {
     }
 }

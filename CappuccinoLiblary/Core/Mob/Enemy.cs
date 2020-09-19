@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLiblary.API.Mob;
-using CappuccinoLiblary.Core;
+using CappuccinoLibrary.API.Mob;
+using CappuccinoLibrary.Core;
 
-namespace CappuccinoLiblary.RPG
+namespace CappuccinoLibrary.RPG
 {
     public abstract class Enemy : Mob, IAttackable
     {
