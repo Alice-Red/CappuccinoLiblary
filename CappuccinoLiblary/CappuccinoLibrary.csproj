@@ -13,4 +13,8 @@
     <Folder Include="Util\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+  </ItemGroup>
+
 </Project>

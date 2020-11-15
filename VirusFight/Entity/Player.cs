@@ -5,7 +5,7 @@ using CappuccinoLibrary.API.Mob;
 using CappuccinoLibrary.Core;
 using CappuccinoLibrary.Core.Mob;
 
-namespace VirusFight.Entitiy
+namespace VirusFight.Entity
 {
     public class Player : Mob, IAttackable
     {

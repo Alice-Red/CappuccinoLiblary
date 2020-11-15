@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirusFight", "VirusFight\Vi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirusFightCUI", "VirusFightCUI\VirusFightCUI.csproj", "{1A59C3DE-247A-41EE-B768-ECCC16512829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmRpg", "RmRpg\RmRpg.csproj", "{E9D48CC4-2CE1-4976-A42E-B7B4DB17155B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1A59C3DE-247A-41EE-B768-ECCC16512829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A59C3DE-247A-41EE-B768-ECCC16512829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A59C3DE-247A-41EE-B768-ECCC16512829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D48CC4-2CE1-4976-A42E-B7B4DB17155B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D48CC4-2CE1-4976-A42E-B7B4DB17155B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D48CC4-2CE1-4976-A42E-B7B4DB17155B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D48CC4-2CE1-4976-A42E-B7B4DB17155B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

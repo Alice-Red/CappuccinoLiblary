@@ -5,7 +5,7 @@ using CappuccinoLibrary.API.Mob;
 using CappuccinoLibrary.Core;
 using CappuccinoLibrary.Core.Mob;
 
-namespace CappuccinoLibrary.RPG
+namespace CappuccinoLibrary.Core.Mob
 {
     public abstract class Enemy : Mob, IAttackable
     {
