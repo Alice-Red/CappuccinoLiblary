@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cappuccino.API.System
+namespace NotLightWin.Effect
 {
-    public interface ICurrency
+    public class ExplosionSmall
     {
 
     }

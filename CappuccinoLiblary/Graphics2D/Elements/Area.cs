@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cappuccino.API.System
+namespace Cappuccino.Graphics2D.Elements
 {
-    public interface ICurrency
+    public class Area:ViewBase
     {
-
     }
 }

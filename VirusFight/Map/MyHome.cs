@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VirusFight.Map
 {
-    public class MyHome : CappuccinoLibrary.Core.Map.Map
+    public class MyHome : Cappuccino.Core.Map.Map
     {
 
     }

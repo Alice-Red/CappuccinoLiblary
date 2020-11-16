@@ -1,4 +1,4 @@
-﻿namespace CappuccinoLibrary.API.Item
+﻿namespace Cappuccino.API.Item
 {
     public interface IUseable
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cappuccino.API.System
+namespace Cappuccino.API.Base
 {
-    public interface ICurrency
+    public interface ITemporary
     {
 
     }

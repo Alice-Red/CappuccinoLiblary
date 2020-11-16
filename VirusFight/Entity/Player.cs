@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CappuccinoLibrary.API.Mob;
-using CappuccinoLibrary.Core;
-using CappuccinoLibrary.Core.Mob;
+using Cappuccino.API.Mob;
+using Cappuccino.Core;
+using Cappuccino.Core.Mob;
 
 namespace VirusFight.Entity
 {

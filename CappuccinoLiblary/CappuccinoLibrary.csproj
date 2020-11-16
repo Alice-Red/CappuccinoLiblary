@@ -1,15 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>CappuccinoLibrary</AssemblyName>
-    <RootNamespace>CappuccinoLibrary</RootNamespace>
+    <AssemblyName>Cappuccino</AssemblyName>
+    <RootNamespace>Cappuccino</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Core\Event\" />
-    <Folder Include="Core\Shop\" />
-    <Folder Include="Core\Quest\" />
+    <Compile Include="..\..\..\..\Dropbox\RUtil.cs" Link="Util\RUtil.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Graphics2D\Layout\" />
+    <Folder Include="RpgCore\Event\" />
+    <Folder Include="RpgCore\Shop\" />
+    <Folder Include="RpgCore\Quest\" />
     <Folder Include="Util\" />
   </ItemGroup>
 
