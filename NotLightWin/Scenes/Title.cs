@@ -22,10 +22,11 @@ namespace NotLightWin.Scenes
                     new Font("Consolas", 28, FontStyle.Underline | FontStyle.Bold),
                     Position.Centor(root)
                     );
-            layer1.Add(layer1.Bukket(0, 0, Color.White));
+            //layer1.Add(layer1.Bukket(0, 0, Color.White));
             layer1.Add(
                 title.AddEasing(Easing.In.Quad, time: 1)
-                .AddAnimation(new Flashing(opacityA: 1, opacityB: 0.9, cycle: 0.6, cycleGap: 0.2).LoopReverse(), new Glowing(color: Color.Black, radius: 14, cycle: 0.6).LoopReverse())
+                .AddAnimation(new Flashing(opacityA: 1, opacityB: 0.9, cycle: 0.6, cycleGap: 0.2).LoopReverse(),
+                    new Glowing(color: Color.Black, radius: 14, cycle: 0.6).LoopReverse())
             );
             layer1.AddEasing(Easing.Out.Quad, time: 4);
             Add(layer1);
