@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VirusFight.Map
+namespace Cappuccino.API.Item
 {
-    public class MyHome : Cappuccino.Core.Map.Map
+    interface IEquippable
     {
-
     }
 }

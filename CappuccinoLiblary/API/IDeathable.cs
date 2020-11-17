@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Cappuccino.API.Mob
 {
-    public interface IHitPoint
+    public interface IDeathable
     {
-        public void Damage(int dmg);
+        
     }
 }

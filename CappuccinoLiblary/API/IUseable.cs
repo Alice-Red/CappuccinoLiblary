@@ -1,6 +1,7 @@
 ﻿namespace Cappuccino.API.Item
 {
-    public interface IStackable
+    public interface IUseable
     {
+        
     }
 }

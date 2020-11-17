@@ -9,6 +9,5 @@ namespace VirusFightCUI
     class VFGame : VirusFightGame
     {
 
-
     }
 }

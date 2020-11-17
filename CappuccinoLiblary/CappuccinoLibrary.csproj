@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Cappuccino</AssemblyName>
+    <RootNamespace>Cappuccino</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\..\Dropbox\RUtil.cs" Link="Util\RUtil.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Graphics2D\Layout\" />
+    <Folder Include="RpgCore\Event\" />
+    <Folder Include="RpgCore\Shop\" />
+    <Folder Include="RpgCore\Quest\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>

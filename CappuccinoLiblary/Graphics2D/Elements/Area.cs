@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VirusFight.Map
+namespace Cappuccino.Graphics2D.Elements
 {
-    public class MyHome : Cappuccino.Core.Map.Map
+    public class Area:ViewBase
     {
-
     }
 }

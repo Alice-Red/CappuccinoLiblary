@@ -4,7 +4,10 @@ using System.Text;
 
 namespace VirusFight.Map
 {
-    public class Forest : CappuccinoLiblary.RPG.Map
+    public class Forest : Cappuccino.Core.Map.Map
     {
+        public Forest() {
+            Name = "森";
+        }
     }
 }

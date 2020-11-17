@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VirusFight.Map
+namespace NotLightWin.Effect
 {
-    public class MyHome : Cappuccino.Core.Map.Map
+    public class ExplosionSmall
     {
 
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CappuccinoLiblary.API
+namespace Cappuccino.API.Mob
 {
     public interface IAttackable
     {
