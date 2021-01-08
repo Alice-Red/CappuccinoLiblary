@@ -21,7 +21,7 @@ namespace Cappuccino.Graphics2D
         }
 
         public virtual ViewBase AddEasing(Easing easing, int time) {
-            //TODO イー人ぐなのっはいいんですけど、各parameterにしたいんですよね、なので多分ここじゃない
+            //TODO イージングなのはいいんですけど、各parameterにしたいんですよね、なので多分ここじゃない
             return this;
         }
 

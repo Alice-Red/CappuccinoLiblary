@@ -29,6 +29,7 @@ namespace NotLightWin.Scenes
                     new Glowing(color: Color.Black, radius: 14, cycle: 0.6).LoopReverse())
             );
             layer1.AddEasing(Easing.Out.Quad, time: 4);
+            layer1 += Clicked;
             Add(layer1);
 
 

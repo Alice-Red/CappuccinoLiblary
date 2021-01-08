@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using NotLightWin.Scenes;
+using Cappuccino.Graphics2D;
 
 namespace NotLightWin
 {
@@ -16,7 +17,12 @@ namespace NotLightWin
             this.FullScreen = false;
             this.Width = 1270;
             this.Height = 720;
-            this.AddScene(new Title(this));
+            Scene title = new Title(this);
+            Scene game = new FindLightMain(title);
+            Scene result = new Result(game);
+            this.AddScene(title);
+            this.AddScene(game);
+            this.AddScene(result);
 
 
         }

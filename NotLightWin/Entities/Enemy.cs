@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Cappuccino.API;
+using Cappuccino.RpgCore.Mob;
 
 namespace NotLightWin.Entities
 {
-    public class PlayerMachine : IDeathable, IHitPoint
+    public class Enemy : Mob
     {
-
-        public void Damage(int dmg) {
+        public override void Damage(int dmg) {
 
         }
     }
