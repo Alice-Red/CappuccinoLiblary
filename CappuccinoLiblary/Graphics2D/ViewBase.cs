@@ -9,6 +9,7 @@ using RUtil;
 
 namespace Cappuccino.Graphics2D
 {
+    // 実用的な描画オブジェクト
     public abstract class ViewBase : Jogmaya
     {
 
@@ -18,6 +19,7 @@ namespace Cappuccino.Graphics2D
 
             }
             //Parallel.For()
+            return new Area();
         }
 
         public virtual ViewBase AddEasing(Easing easing, int time) {

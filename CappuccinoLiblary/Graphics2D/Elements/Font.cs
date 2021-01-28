@@ -5,9 +5,10 @@ using System.Text;
 
 namespace Cappuccino.Graphics2D.Elements
 {
+    // フォント
     public class Font
     {
-        public Font(string fontFamiry, int size, FontStyle style) {
+        public Font(string fontFamily, int size, FontStyle style) {
 
         }
     }

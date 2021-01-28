@@ -13,14 +13,6 @@
 
         }
 
-        ///// <summary>
-        ///// レイヤーを上に重ねます
-        ///// </summary>
-        ///// <param name="layer"></param>
-        //public void Add(Layer layer) {
-
-        //}
-
         /// <summary>
         /// 指定した位置にレイヤーを敷きます
         /// </summary>

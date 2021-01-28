@@ -9,10 +9,7 @@ namespace Cappuccino.Windows
     {
 
         public bool FullScreen { get; set; }
-
-        //public int Width { get; set; }
-        //public int Height { get; set; }
-
+        
         protected abstract void Initialization();
 
         protected void AddScene(Scene scene) {

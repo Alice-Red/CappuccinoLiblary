@@ -16,23 +16,26 @@ namespace NotLightWin.Scenes
 
         protected override void Initialization() {
             Layer layer1 = new Layer();
-            Letter title =
-                new Letter(
-                    "!light",
-                    new Font("Consolas", 28, FontStyle.Underline | FontStyle.Bold),
-                    Position.Centor(root)
-                    );
-            //layer1.Add(layer1.Bukket(0, 0, Color.White));
+            Letter title = new Letter(
+                "!light",
+                new Font("Consolas", 28, FontStyle.Underline | FontStyle.Bold), 
+                Position.Centor(root)
+                );
+            //layer1.Add(layer1.bucket(0, 0, Color.White));
             layer1.Add(
                 title.AddEasing(Easing.In.Quad, time: 1)
-                .AddAnimation(new Flashing(opacityA: 1, opacityB: 0.9, cycle: 0.6, cycleGap: 0.2).LoopReverse(),
-                    new Glowing(color: Color.Black, radius: 14, cycle: 0.6).LoopReverse())
+                .AddAnimation(
+                    new Flashing(opacityA: 1, opacityB: 0.9, cycle: 0.6, cycleGap: 0.2).LoopReverse(),
+                    new Glowing(color: Color.Black, radius: 14, cycle: 0.6).LoopReverse()
+                    )
             );
             layer1.AddEasing(Easing.Out.Quad, time: 4);
-            layer1 += Clicked;
+            layer1.OnClicked += Layer1_OnClicked;
             Add(layer1);
+        }
 
-
+        private void Layer1_OnClicked(object sender, ClickedArgs e) {
+            // TODO クリック時
         }
     }
 }

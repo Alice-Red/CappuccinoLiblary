@@ -4,8 +4,11 @@ using System.Text;
 
 namespace Cappuccino.Graphics2D.Effects
 {
+    // 書き方を優先したイージング
+    // どうなるかわからん
     public class Easing
     {
+
         public static Easing Liner;
 
         public static class In

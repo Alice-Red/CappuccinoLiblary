@@ -8,7 +8,7 @@ namespace Cappuccino.Graphics2D
     {
         public int X;
         public int Y;
-
+        public bool Button;
         public int Level;
 
     }
