@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\..\..\Dropbox\RUtil.cs" Link="Util\RUtil.cs" />
+    <Compile Remove="Util\RUtil.Cappuccino.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,7 +15,10 @@
     <Folder Include="RpgCore\Event\" />
     <Folder Include="RpgCore\Shop\" />
     <Folder Include="RpgCore\Quest\" />
-    <Folder Include="Util\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Util\RUtil.Cappuccino.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Cappuccino.API;
+using Cappuccino.API.Mob;
 
 namespace NotLightWin.Entities
 {

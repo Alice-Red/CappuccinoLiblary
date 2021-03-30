@@ -16,5 +16,11 @@ namespace Cappuccino.Windows
 
 
         }
+
+
+
+        protected void Start() {
+
+        }
     }
 }

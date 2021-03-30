@@ -11,6 +11,10 @@ namespace Cappuccino.Graphics2D.Effects
 
         public static Easing Liner;
 
+
+
+
+
         public static class In
         {
             public static Easing Sine;

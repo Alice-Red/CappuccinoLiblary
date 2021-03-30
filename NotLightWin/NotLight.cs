@@ -10,12 +10,12 @@ namespace NotLightWin
     {
 
         public NotLight() {
-
+            Initialization();
         }
 
         protected override void Initialization() {
             this.FullScreen = false;
-            this.Width = 1270;
+            this.Width = 1280;
             this.Height = 720;
             Scene title = new Title(this);
             Scene game = new FindLightMain(title);
@@ -28,6 +28,7 @@ namespace NotLightWin
         }
 
         public void Boot() {
+            this.Start();
 
         }
 

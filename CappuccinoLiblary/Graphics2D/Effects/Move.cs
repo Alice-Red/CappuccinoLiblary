@@ -4,11 +4,7 @@ using System.Text;
 
 namespace Cappuccino.Graphics2D.Effects
 {
-    // 座標計算
-    public class Position
+    public class Move : Animation
     {
-        public static Position Center(Jogmaya nt) {
-
-        }
     }
 }

@@ -12,6 +12,14 @@ namespace Cappuccino.Graphics2D
     // 実用的な描画オブジェクト
     public abstract class ViewBase : Jogmaya
     {
+        public Animation[] Animations;
+
+
+        public void AnimationNext() {
+            foreach (var anm in Animations) {
+                anm.Next();
+            }
+        }
 
         public Area Bucket(int x, int y, Color color) {
             //TODO 色参照できないからここじゃないほうがいいカモメ
@@ -22,13 +30,8 @@ namespace Cappuccino.Graphics2D
             return new Area();
         }
 
-        public virtual ViewBase AddEasing(Easing easing, int time) {
-            //TODO イージングなのはいいんですけど、各parameterにしたいんですよね、なので多分ここじゃない
-            return this;
-        }
-
         public virtual ViewBase AddAnimation(params Animation[] animate) {
-            //TODO まだあり
+
             return this;
         }
     }

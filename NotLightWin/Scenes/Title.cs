@@ -18,24 +18,24 @@ namespace NotLightWin.Scenes
             Layer layer1 = new Layer();
             Letter title = new Letter(
                 "!light",
-                new Font("Consolas", 28, FontStyle.Underline | FontStyle.Bold), 
-                Position.Centor(root)
+                new Font(@"Consolas", 28, FontStyle.Underline | FontStyle.Bold), 
+                Position.Center(root) // root.Center()
                 );
             //layer1.Add(layer1.bucket(0, 0, Color.White));
             layer1.Add(
-                title.AddEasing(Easing.In.Quad, time: 1)
+                title.AddAnimation(Fade.In(1).AddEasing(Easing.In.Quad))
                 .AddAnimation(
                     new Flashing(opacityA: 1, opacityB: 0.9, cycle: 0.6, cycleGap: 0.2).LoopReverse(),
-                    new Glowing(color: Color.Black, radius: 14, cycle: 0.6).LoopReverse()
+                    new Glowing(color: Color.Black, range: 14, cycle: 0.6).LoopReverse()
                     )
             );
-            layer1.AddEasing(Easing.Out.Quad, time: 4);
+            layer1.AddAnimation(Fade.In(4).AddEasing(Easing.Out.Quad));
             layer1.OnClicked += Layer1_OnClicked;
             Add(layer1);
         }
 
         private void Layer1_OnClicked(object sender, ClickedArgs e) {
-            // TODO クリック時
+            // TODO 画面クリック時
         }
     }
 }

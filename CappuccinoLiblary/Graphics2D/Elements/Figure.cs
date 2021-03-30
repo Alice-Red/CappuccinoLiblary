@@ -1,6 +1,6 @@
 ﻿namespace Cappuccino.Graphics2D.Elements
 {
-    // キャラ？
+    // 図形か
     public class Figure : ElementBase
     {
 
