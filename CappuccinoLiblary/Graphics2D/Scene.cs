@@ -3,9 +3,9 @@
     public class Scene: ViewBase
     {
 
-        protected readonly Jogmaya root;
-        public Scene(Jogmaya nt) {
-            root = nt;
+        protected readonly Chimame root;
+        public Scene(Chimame cpcp) {
+            root = cpcp;
         }
 
 

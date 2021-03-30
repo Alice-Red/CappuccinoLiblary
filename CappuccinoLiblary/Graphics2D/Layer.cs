@@ -4,7 +4,7 @@
     public class Layer: ViewBase
     {
 
-        public Layer Add(Jogmaya nt) {
+        public Layer Add(Chimame nt) {
             return this;
         }
     }

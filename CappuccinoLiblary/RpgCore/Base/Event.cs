@@ -5,7 +5,7 @@ using Cappuccino.RpgCore.Base;
 
 namespace Cappuccino.RpgCore.Base
 {
-    public class Event : Cappuccino
+    public class Event : Nutmeg
     {
     }
 }

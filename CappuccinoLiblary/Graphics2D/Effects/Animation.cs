@@ -16,7 +16,8 @@ namespace Cappuccino.Graphics2D.Effects
 
         }
 
-        public void AddOffset() {
+        public void AddOffset(double value) {
+            Offset = value;
 
         }
 

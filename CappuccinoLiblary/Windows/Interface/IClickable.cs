@@ -8,6 +8,6 @@ namespace Cappuccino.Windows.Interface
     public interface IClickable
     {
         public delegate void OnClickedHandler(object sender, ClickedArgs e);
-        public event Jogmaya.OnClickedHandler OnClicked;
+        public event Graphics2D.Chimame.OnClickedHandler OnClicked;
     }
 }

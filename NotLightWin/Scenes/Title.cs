@@ -10,7 +10,7 @@ namespace NotLightWin.Scenes
 {
     public class Title : Scene
     {
-        public Title(Jogmaya nt) : base(nt) {
+        public Title(Chimame obj) : base(obj) {
 
         }
 

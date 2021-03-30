@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RUtil
 {
-	public static class Chino
+	public static class Jogmaya
 	{
 		public static T[] Append<T>(this T[] source, params T[] elements) {
 			return source.Concat(elements).ToArray();

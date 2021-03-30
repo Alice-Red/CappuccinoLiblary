@@ -8,7 +8,7 @@ namespace NotLightWin.Scenes
 {
     public class FindLightMain : Scene
     {
-        public FindLightMain(Jogmaya jg) : base(jg) {
+        public FindLightMain(Chimame obj) : base(obj) {
             Layer pl = new Layer();
             pl.Add(new Entities.PlayerMachine());
         }

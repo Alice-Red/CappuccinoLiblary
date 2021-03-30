@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Cappuccino.API.Item;
+using Cappuccino.API;
 
 namespace Cappuccino.RpgCore.Equipment
 {

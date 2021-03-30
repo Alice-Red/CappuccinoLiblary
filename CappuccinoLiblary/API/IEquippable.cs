@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cappuccino.API.Item
+namespace Cappuccino.API
 {
     interface IEquippable
     {

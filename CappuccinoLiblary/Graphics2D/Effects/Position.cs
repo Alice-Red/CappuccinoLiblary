@@ -4,11 +4,35 @@ using System.Text;
 
 namespace Cappuccino.Graphics2D.Effects
 {
-    // 座標計算
     public class Position
     {
-        public static Position Center(Jogmaya nt) {
+        
+
+
+    }
+
+    // 座標計算
+    public static class PositionUtil
+    {
+        public static Position Center(this Chimame c) {
 
         }
+
+        public static Position Left(this Chimame c) {
+
+        }
+
+        public static Position Right(this Chimame c) {
+
+        }
+
+        public static Position Top(this Chimame c) {
+
+        }
+
+        public static Position Bottom(this Chimame c) {
+
+        }
+
     }
 }

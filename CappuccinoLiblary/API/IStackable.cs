@@ -1,4 +1,4 @@
-﻿namespace Cappuccino.API.Item
+﻿namespace Cappuccino.API
 {
     public interface IStackable
     {

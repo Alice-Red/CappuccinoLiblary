@@ -7,7 +7,7 @@ namespace NotLightWin.Scenes
 {
     public class Result : Scene
     {
-        public Result(Jogmaya jg): base(jg){
+        public Result(Chimame obj): base(obj) {
             
         }
     }

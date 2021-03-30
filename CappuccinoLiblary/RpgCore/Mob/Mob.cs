@@ -1,4 +1,4 @@
-﻿using Cappuccino.API.Mob;
+﻿using Cappuccino.API;
 using Cappuccino.RpgCore.Base;
 
 namespace Cappuccino.RpgCore.Mob

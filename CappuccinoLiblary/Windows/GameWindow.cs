@@ -5,7 +5,7 @@ using Cappuccino.Graphics2D;
 
 namespace Cappuccino.Windows
 {
-    public abstract class GameWindow : Jogmaya
+    public abstract class GameWindow : Graphics2D.Chimame
     {
 
         public bool FullScreen { get; set; }

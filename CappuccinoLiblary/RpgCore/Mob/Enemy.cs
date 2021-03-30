@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Cappuccino.API.Mob;
+using Cappuccino.API;
 using Cappuccino.RpgCore;
 using Cappuccino.RpgCore.Mob;
 

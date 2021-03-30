@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cappuccino.RpgCore.Base
 {
-    public class Cappuccino
+    public class Nutmeg
     {
         public ObjectType ObjectType;
 

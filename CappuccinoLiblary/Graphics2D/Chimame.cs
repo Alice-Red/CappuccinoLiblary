@@ -3,7 +3,7 @@
 namespace Cappuccino.Graphics2D
 {
     // 描画できるなにか
-    public class Jogmaya/*:IClickable*/
+    public class Chimame/*:IClickable*/
     {
         public delegate void OnClickedHandler(object sender, ClickedArgs e);
         public event OnClickedHandler OnClicked;
@@ -13,6 +13,6 @@ namespace Cappuccino.Graphics2D
         public int Width { get; set; }
         public int Height { get; set; }
 
-        //public event Jogmaya.OnClickedHandler OnClicked;
+        //public event Chimame.OnClickedHandler OnClicked;
     }
 }

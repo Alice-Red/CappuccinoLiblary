@@ -5,7 +5,7 @@ using Cappuccino.API;
 
 namespace Cappuccino.RpgCore.Base
 {
-    public class Entity : Cappuccino
+    public class Entity : Nutmeg
     {
 
     }
