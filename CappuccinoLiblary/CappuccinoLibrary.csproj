@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\..\..\Dropbox\RUtil.cs" Link="Util\RUtil.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Graphics2D\Layout\" />
     <Folder Include="RpgCore\Event\" />
     <Folder Include="RpgCore\Shop\" />
