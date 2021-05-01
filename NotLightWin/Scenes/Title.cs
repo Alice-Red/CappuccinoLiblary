@@ -18,8 +18,8 @@ namespace NotLightWin.Scenes
             Layer layer1 = new Layer();
             Letter title = new Letter(
                 "!light",
-                new Font(@"Consolas", 28, FontStyle.Underline | FontStyle.Bold), 
-                Position.Center(root) // root.Center()
+                new Font(@"Consolas", 28, FontStyle.Underline | FontStyle.Bold),
+                  root.Center()  //Position.Center(root)
                 );
             //layer1.Add(layer1.bucket(0, 0, Color.White));
             layer1.Add(

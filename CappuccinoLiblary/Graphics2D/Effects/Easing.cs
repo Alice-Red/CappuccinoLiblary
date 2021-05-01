@@ -8,12 +8,29 @@ namespace Cappuccino.Graphics2D.Effects
     // どうなるかわからん
     public class Easing
     {
+        public string Formula;
+
+        public Easing(string fml) {
+            Formula = fml;
+        }
+
+        public Position Calc(double timing) {
+            var fml = Formula.Replace("x", timing + "");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
         public static Easing Liner;
-
-
-
-
 
         public static class In
         {
